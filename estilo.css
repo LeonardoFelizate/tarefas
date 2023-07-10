@@ -1,0 +1,29 @@
+body {
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabeçalho {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-bottom: solid black thin;
+}
+
+@media (max-width: 600px) {
+    .cabeçalho {
+      font-size: 20px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .cabeçalho {
+      font-size: 24px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .cabeçalho {
+      font-size: 32px;
+    }
+}

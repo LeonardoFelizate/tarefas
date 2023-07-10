@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <h1>Programa de tarefas</h1>
+    </header>
+    <section>    
+        <p>O programa consiste em organizar tarefas do dia.</p>
+        <p>As funcionalidades são:</p>
+        <ul>
+            <li><strong>Adicionar Tarefa: </strong>Permite adicionar uma nova tarefa na lista;</li>     
+            <li><strong>Remover tarefa: </strong>Permite remover as tarefas que já foram concluídas ou não precisam mais estar lá no momento;</li>
+            <li><strong>Atualizar tarefa: </strong>Permite que atualize tal tarefa a ser feita;</li>        
+        </ul>
+    <section>
+    </section>    
+    <div id="dados">
+        <p>Tarefas:</p>
+        <input id="txtvalue" autofocus />
+        <button onclick="adicionarTarefa()">Adicionar</button>
+        <button onclick="removerTarefa()">Remover</button>
+        <input id="txtatualizarNovo" placeholder="Valor novo" />
+        <button onclick="atualizarTarefa()">Atualizar</button>
+        <p id="mensagem"></p>
+      </div>
+    </section>
+    <footer>
+        <p>&copy; Desenvolvido por Leonardo Felizate</p>
+    </footer>
+    <hr/>
+    <script src="tarefas.js"></script>
+</body>
+</html>
